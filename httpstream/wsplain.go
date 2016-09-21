@@ -3,7 +3,7 @@ package httpstream
 import (
 	"net/http"
 
-	"github.com/gliderlabs/logspout/router"
+	"github.com/rkorkosz/logspout/router"
 	"github.com/gorilla/mux"
 	"golang.org/x/net/websocket"
 )
@@ -21,7 +21,7 @@ func WebSocketPlainLog() http.Handler {
 
 func plainLogsHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Header.Get("Upgrade") != "websocket" {
-		http.Error(w, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
+		http.Error(w, "closing", 1000)
 		return
 	}
 	params := mux.Vars(r)

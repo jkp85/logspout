@@ -7,7 +7,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/gliderlabs/logspout/router"
+	"github.com/rkorkosz/logspout/router"
 )
 
 var Version string
