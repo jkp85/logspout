@@ -11,7 +11,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/rkorkosz/logspout/router"
+	"github.com/3Blades/logspout/router"
 )
 
 var hostname string

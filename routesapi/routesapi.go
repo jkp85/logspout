@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/rkorkosz/logspout/router"
+	"github.com/3Blades/logspout/router"
 	"github.com/gorilla/mux"
 )
 

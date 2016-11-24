@@ -3,7 +3,7 @@ package httpstream
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/rkorkosz/logspout/router"
+	"github.com/3Blades/logspout/router"
 	"github.com/gorilla/mux"
 	"golang.org/x/net/websocket"
 	"log"

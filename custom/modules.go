@@ -1,6 +1,6 @@
 package main
 
 import (
-	_ "github.com/rkorkosz/logspout/adapters/syslog"
-	_ "github.com/rkorkosz/logspout/transports/tcp"
+	_ "github.com/3Blades/logspout/adapters/syslog"
+	_ "github.com/3Blades/logspout/transports/tcp"
 )

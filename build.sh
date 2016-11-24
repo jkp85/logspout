@@ -1,9 +1,9 @@
 #!/bin/sh
 set -e
 apk add --update go git mercurial build-base
-mkdir -p /go/src/github.com/rkorkosz
-cp -r /src /go/src/github.com/rkorkosz/logspout
-cd /go/src/github.com/rkorkosz/logspout
+mkdir -p /go/src/github.com/3Blades
+cp -r /src /go/src/github.com/3Blades/logspout
+cd /go/src/github.com/3Blades/logspout
 export GOPATH=/go
 go get
 go build -ldflags "-X main.Version $1" -o /bin/logspout
