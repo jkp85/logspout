@@ -19,4 +19,4 @@ after_script:
 env:
   - $DOCKER_IMAGE_NAME="3blades/logspout"
 notifications:
-  slack: 3blades:3blades:XahVulsT3BSOlFzGmoXHiKDi
+  slack: 3blades::XahVulsT3BSOlFzGmoXHiKDi
